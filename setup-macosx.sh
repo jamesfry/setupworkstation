@@ -55,6 +55,10 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | 
 npm install -g yarn
 
 
+# p7zip (Homebrew)
+brew install p7zip
+
+
 # htop (Homebrew)
 brew install htop
 
@@ -75,9 +79,22 @@ brew install watch
 brew cask install slack
 
 
+# pgadmin4 (Homebrew cask)
+brew cask install pgadmin4
+
+
 # Datagrip (Homebrew cask)
 brew cask install datagrip
 
 
 # Eclipse Java (Homebrew cask)
 brew cask install eclipse-java
+
+
+# Yourkit Java Profiler (Homebrew cask)
+brew cask install yourkit-java-profiler
+
+
+# Apache Directory Studio LDAP/AD (Homebrew cask)
+brew cask install apache-directory-studio
+
