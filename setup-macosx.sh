@@ -1,12 +1,21 @@
 #!/bin/bash
 
+# ensure ~/.bash_profile exists so we can append to it
+touch ~/.bash_profile
+
+
+# set bash prompt to use colouring 
+echo <<EOF >> ~/.bash_profile
+echo PS1="\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "
+EOF
+
+
 # Install Homebrew package manager
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 
 # bash completion (Homebrew)
 brew install bash-completion
-touch ~/.bash_profile
 echo << EOF >> ~/.bash_profile
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 . $(brew --prefix)/etc/bash_completion
