@@ -72,8 +72,9 @@ touch ~/.bash_profile
 
 
 # set bash prompt to use colouring 
-echo <<EOF >> ~/.bash_profile
-echo PS1="\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "
+cat <<EOF >> ~/.bash_profile
+
+export PS1="\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "
 EOF
 
 
@@ -83,7 +84,8 @@ EOF
 
 # bash completion (Homebrew)
 brew install bash-completion
-echo << EOF >> ~/.bash_profile
+cat << EOF >> ~/.bash_profile
+
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 . $(brew --prefix)/etc/bash_completion
 fi
@@ -123,6 +125,12 @@ brew cask install visual-studio-code
 touch ~/.bash_profile
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
+cat <<EOF >>~/.bash_profile
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+EOF
 
 # yarn - install through npm
 npm install -g yarn
@@ -160,7 +168,7 @@ brew cask install pgadmin4
 brew cask install java
 
 
-# Maven (Homebrew)
+# Apache Maven (Homebrew)
 brew install maven
 
 
