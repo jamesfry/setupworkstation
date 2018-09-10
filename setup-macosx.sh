@@ -93,6 +93,10 @@ brew cask install pgadmin4
 brew cask install java
 
 
+# Maven (Homebrew)
+brew install maven
+
+
 # Eclipse Java (Homebrew cask)
 brew cask install eclipse-java
 
