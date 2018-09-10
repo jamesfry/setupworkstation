@@ -55,7 +55,7 @@ brew cask install visual-studio-code
 brew cask install java
 
 
-# nwode.js - Install  nvm
+# node.js - Install  nvm
 touch ~/.bash_profile
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
