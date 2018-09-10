@@ -22,6 +22,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 EOF
 
+
 # Git (Homebrew) - This gives git gui, gitk etc
 brew install git
 
@@ -49,10 +50,6 @@ brew install docker-machine-completion
 
 # Visual Studio Code (Homebrew cask)
 brew cask install visual-studio-code
-
-
-# Oracle Java (Homebrew cask)
-brew cask install java
 
 
 # node.js - Install  nvm
@@ -92,12 +89,16 @@ brew cask install slack
 brew cask install pgadmin4
 
 
-# Datagrip (Homebrew cask)
-brew cask install datagrip
+# Oracle Java (Homebrew cask)
+brew cask install java
 
 
 # Eclipse Java (Homebrew cask)
 brew cask install eclipse-java
+
+
+# Datagrip (Homebrew cask)
+brew cask install datagrip
 
 
 # Yourkit Java Profiler (Homebrew cask)
