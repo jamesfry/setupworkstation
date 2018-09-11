@@ -201,6 +201,18 @@ brew install watch
 brew cask install slack
 
 
+# Microsoft Teams (Homebrew cask)
+brew cask install microsoft-teams
+
+
+# Skype for Business / Lync (Homebrew cask)
+brew cask install skype-for-business
+
+
+# Skype (Homebrew cask)
+brew cask install skype
+
+
 # pgadmin4 (Homebrew cask)
 brew cask install pgadmin4
 
