@@ -133,6 +133,27 @@ brew install docker-machine-completion
 brew cask install visual-studio-code
 
 
+# vscode extensions
+for extension in \
+    codezombiech.gitignore \
+    CoenraadS.bracket-pair-colorizer \
+    dakara.transformer \
+    dbaeumer.vscode-eslint \
+    eg2.tslint \
+    eg2.vscode-npm-script \
+    foxundermoon.shell-format \
+    kumar-harsh.graphql-for-vscode \
+    mechatroner.rainbow-csv \
+    mohsen1.prettify-json \
+    passionkind.prettier-vscode-with-tabs \
+    PeterJausovec.vscode-docker \
+    robertohuertasm.vscode-icons \
+    vscjava.vscode-maven
+do
+    code --install-extension $extension
+done
+
+
 # node.js - Install  nvm
 touch ~/.bash_profile
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
