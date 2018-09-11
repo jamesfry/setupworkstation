@@ -108,9 +108,13 @@ brew install git
 brew cask install google-chrome
 
 
-# Ddcker (Homebrew cask)
+# Docker (Homebrew cask)
 # Using the cask gets the dmg from the docker store and gives the gui tools
 brew cask install docker
+
+
+# Docker compose (Homebrew)
+brew install docker-compose
 
 
 # docker alternative method (Homebrew)
