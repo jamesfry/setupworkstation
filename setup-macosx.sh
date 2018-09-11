@@ -92,6 +92,14 @@ fi
 EOF
 
 
+# setup lscolors
+cat << EOF >> ~/.bash_profile
+
+export CLICOLOR=YES
+export LSCOLORS="Gxfxcxdxbxegedabagacad"
+EOF
+
+
 # Git (Homebrew) - This gives git gui, gitk etc
 brew install git
 
