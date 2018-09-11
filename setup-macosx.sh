@@ -240,3 +240,6 @@ brew cask install yourkit-java-profiler
 # Apache Directory Studio LDAP/AD (Homebrew cask)
 brew cask install apache-directory-studio
 
+
+# python (Homebrew)
+brew install pipenv
