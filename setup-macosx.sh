@@ -243,3 +243,7 @@ brew cask install apache-directory-studio
 
 # python (Homebrew)
 brew install pipenv
+
+
+# Spectacle window snapping++ (Homebrew cask)
+brew cask install spectacle
