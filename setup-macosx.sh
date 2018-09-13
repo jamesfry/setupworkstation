@@ -247,3 +247,7 @@ brew install pipenv
 
 # Spectacle window snapping++ (Homebrew cask)
 brew cask install spectacle
+
+
+# VLC (Homebrew cask)
+brew cask install vlc
