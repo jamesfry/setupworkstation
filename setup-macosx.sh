@@ -79,8 +79,7 @@ EOF
 
 
 # Install Homebrew package manager
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # bash completion (Homebrew)
 brew install bash-completion
