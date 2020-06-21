@@ -145,8 +145,6 @@ for extension in \
     mechatroner.rainbow-csv \
     mohsen1.prettify-json \
     passionkind.prettier-vscode-with-tabs \
-    PeterJausovec.vscode-docker \
-    robertohuertasm.vscode-icons \
     vscjava.vscode-maven
 do
     code --install-extension $extension
