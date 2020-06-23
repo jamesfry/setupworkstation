@@ -154,22 +154,9 @@ done
 
 # node.js - Install  nvm
 touch ~/.bash_profile
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
 # install LTS release of node
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 nvm install --lts
-
-# add NVM to ~/.bash_profile
-cat <<EOF >>~/.bash_profile
-
-export NVM_DIR="$HOME/.nvm"
-# load nvm
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-# load nvm bash_completion
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-nvm use --lts
-EOF
 
 # yarn - install through npm
 npm install -g yarn
