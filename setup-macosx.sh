@@ -224,8 +224,7 @@ brew install maven
 
 
 # Datagrip (Homebrew cask)
-brew cask install datagrip
-
+brew cask install jetbrains-toolbox
 
 
 
