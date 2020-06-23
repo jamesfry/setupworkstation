@@ -215,12 +215,16 @@ brew cask install slack
 brew cask install microsoft-teams
 
 
-
-
-
-
 # pgadmin4 (Homebrew cask)
 brew cask install pgadmin4
+
+
+# Spectacle window snapping++ (Homebrew cask)
+brew cask install spectacle
+
+
+# VLC (Homebrew cask)
+brew cask install vlc
 
 
 # Oracle Java (Homebrew cask)
@@ -238,9 +242,3 @@ brew cask install jetbrains-toolbox
 
 
 
-# Spectacle window snapping++ (Homebrew cask)
-brew cask install spectacle
-
-
-# VLC (Homebrew cask)
-brew cask install vlc
