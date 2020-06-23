@@ -241,6 +241,10 @@ brew install maven
 brew cask install jetbrains-toolbox
 
 
-
+# Setup James dark terminal profile
+profile=$(<terminal-profile.xml)
+plutil -replace Window\ Settings.James2 -xml "$profile" ~/Library/Preferences/com.apple.Terminal.plist
+defaults write com.apple.Terminal "Default Window Settings" -string "James"
+defaults write com.apple.Terminal "Startup Window Settings" -string "James"
 
 
