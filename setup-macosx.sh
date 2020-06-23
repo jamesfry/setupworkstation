@@ -195,6 +195,10 @@ brew install nmap
 brew install watch
 
 
+# AWS
+brew install awscli
+
+
 # Slack (Homebrew cask)
 brew cask install slack
 
