@@ -227,8 +227,10 @@ brew cask install spectacle
 brew cask install vlc
 
 
-# Oracle Java (Homebrew cask)
-brew cask install java
+# Java
+brew tap AdoptOpenJDK/openjdk
+brew cask install adoptopenjdk11-openj9
+brew cask install adoptopenjdk8-openj9
 
 
 # Apache Maven (Homebrew)
