@@ -199,6 +199,14 @@ brew install watch
 brew install awscli
 
 
+# pip3 upgrade
+sudo pip3 install --upgrade pip3
+
+
+# python pipenv
+sudo pip3 install pipenv
+
+
 # Slack (Homebrew cask)
 brew cask install slack
 
@@ -228,10 +236,6 @@ brew cask install jetbrains-toolbox
 
 
 
-
-
-# python (Homebrew)
-brew install pipenv
 
 
 # Spectacle window snapping++ (Homebrew cask)
