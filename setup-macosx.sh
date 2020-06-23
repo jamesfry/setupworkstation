@@ -192,6 +192,7 @@ done
 
 # node.js - Install  nvm
 touch ~/.bash_profile
+# FIXME https://github.com/lukechilds/zsh-nvm
 
 # install LTS release of node
 nvm install --lts
@@ -296,3 +297,21 @@ git config --global user.email "james.fry@jrfsolutions.co.uk"
 
 # zsh stuff
 brew install zplug
+
+# prompt via https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/
+# %(?.√.?%?)	if return code ? is 0, show √, else show ?%?
+# %?	        exit code of previous command
+# %1~	        current working dir, shortening home to ~, show only last 1 element
+# %#	        # with root privileges, % otherwise
+# %B %b 	    start/stop bold
+# %F{...}	    text (foreground) color, see table
+# %f	        reset to default textcolor
+PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%1~%f%b %# '
+
+autoload -Uz vcs_info                                                                                                     (b4bac16a5)
+precmd_vcs_info() { vcs_info }
+precmd_functions+=( precmd_vcs_info )
+setopt prompt_subst
+zstyle ':vcs_info:git:*' formats '%F{240}(%b) %*'
+zstyle ':vcs_info:*' enable git
+RPROMPT=\$vcs_info_msg_0_
