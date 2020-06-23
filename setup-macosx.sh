@@ -207,12 +207,8 @@ brew cask install slack
 brew cask install microsoft-teams
 
 
-# Skype for Business / Lync (Homebrew cask)
-brew cask install skype-for-business
 
 
-# Skype (Homebrew cask)
-brew cask install skype
 
 
 # pgadmin4 (Homebrew cask)
@@ -227,20 +223,12 @@ brew cask install java
 brew install maven
 
 
-# Eclipse Java (Homebrew cask)
-brew cask install eclipse-java
-
-
 # Datagrip (Homebrew cask)
 brew cask install datagrip
 
 
-# Yourkit Java Profiler (Homebrew cask)
-brew cask install yourkit-java-profiler
 
 
-# Apache Directory Studio LDAP/AD (Homebrew cask)
-brew cask install apache-directory-studio
 
 
 # python (Homebrew)
