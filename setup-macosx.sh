@@ -101,6 +101,7 @@ EOF
 
 # Git (Homebrew) - This gives git gui, gitk etc
 brew install git
+brew install git-gui
 
 
 # Google Chrome (Homebrew cask)
