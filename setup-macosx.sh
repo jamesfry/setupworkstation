@@ -235,3 +235,8 @@ defaults write com.apple.Terminal "Default Window Settings" -string "James"
 defaults write com.apple.Terminal "Startup Window Settings" -string "James"
 
 
+# git config
+git config --global user.name "James Fry"
+git config --global user.email "james.fry@jrfsolutions.co.uk"
+
+
