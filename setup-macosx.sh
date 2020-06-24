@@ -82,6 +82,10 @@ defaults write com.apple.dock "wvous-tr-corner" -int 3
 defaults write com.apple.dock "wvous-tr-modifier" -int 0
 
 
+# Never sleep when on power
+sudo systemsetup -setcomputersleep Never
+
+
 # Show the ~/Library folder
 chflags nohidden ~/Library
 
