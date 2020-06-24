@@ -66,6 +66,13 @@ sudo defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking 
 sudo defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 sudo defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
+# key repeat
+# normal minimum is 15 (225 ms)
+defaults write -g InitialKeyRepeat -int 10
+
+# normal minimum is 2 (30 ms)
+defaults write -g KeyRepeat -int 1
+
 # Show the ~/Library folder
 chflags nohidden ~/Library
 
