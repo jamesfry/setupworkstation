@@ -72,6 +72,8 @@ chflags nohidden ~/Library
 # Show the /Volumes folder
 sudo chflags nohidden /Volumes
 
+# create an ssh key
+ssh-keygen -b 4096 -t rsa -f $HOME/.ssh/id_rsa -q -N "" 0>&-
 
 # ensure ~/.bash_profile exists so we can append to it
 touch ~/.bash_profile
