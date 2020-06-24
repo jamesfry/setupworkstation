@@ -248,3 +248,5 @@ git config --global user.name "James Fry"
 git config --global user.email "james.fry@jrfsolutions.co.uk"
 
 
+# zsh stuff
+brew install zplug
