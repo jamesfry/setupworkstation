@@ -210,6 +210,10 @@ brew install nmap
 brew install watch
 
 
+# GNU parallel (xargs with a decent job queue)
+brew install parallel
+
+
 # AWS
 brew install awscli
 
