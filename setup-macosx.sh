@@ -73,6 +73,15 @@ defaults write -g InitialKeyRepeat -int 10
 # normal minimum is 2 (30 ms)
 defaults write -g KeyRepeat -int 1
 
+# hotcorners - via https://blog.jiayu.co/2018/12/quickly-configuring-hot-corners-on-macos/
+defaults write com.apple.dock "wvous-bl-corner" -int 4
+defaults write com.apple.dock "wvous-bl-modifier" -int 0
+defaults write com.apple.dock "wvous-tl-corner" -int 2
+defaults write com.apple.dock "wvous-tl-modifier" -int 0
+defaults write com.apple.dock "wvous-tr-corner" -int 3
+defaults write com.apple.dock "wvous-tr-modifier" -int 0
+
+
 # Show the ~/Library folder
 chflags nohidden ~/Library
 
