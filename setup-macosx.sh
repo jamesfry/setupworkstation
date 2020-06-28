@@ -136,6 +136,10 @@ brew install git-gui
 brew cask install google-chrome
 
 
+# Firefox (Homebrew cask)
+brew cask install firefox
+
+
 # Docker (Homebrew cask)
 # Using the cask gets the dmg from the docker store and gives the gui tools
 brew cask install docker
