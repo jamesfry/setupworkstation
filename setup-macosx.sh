@@ -250,6 +250,11 @@ brew cask install spectacle
 brew cask install vlc
 
 
+# Spotify
+brew cask install spotify
+
+
+# the unarchiver (zips, rars etc)
 # Java
 brew tap AdoptOpenJDK/openjdk
 brew cask install adoptopenjdk11-openj9
