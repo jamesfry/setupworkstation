@@ -6,7 +6,7 @@ defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock magnification -bool false
 defaults write com.apple.dock minimize-to-application -bool true
 defaults write com.apple.dock orientation -string left
-# Top right screen corner = Mission Control
+# hotcorners - via https://blog.jiayu.co/2018/12/quickly-configuring-hot-corners-on-macos/ and others
 # Possible values:
 #  0: no-op
 #  2: Mission Control
@@ -18,7 +18,12 @@ defaults write com.apple.dock orientation -string left
 # 10: Put display to sleep
 # 11: Launchpad
 # 12: Notification Center
-defaults write com.apple.dock wvous-tr-modifier -int 2
+defaults write com.apple.dock "wvous-bl-corner" -int 4
+defaults write com.apple.dock "wvous-bl-modifier" -int 0
+defaults write com.apple.dock "wvous-tl-corner" -int 2
+defaults write com.apple.dock "wvous-tl-modifier" -int 0
+defaults write com.apple.dock "wvous-tr-corner" -int 3
+defaults write com.apple.dock "wvous-tr-modifier" -int 0
 
 # Finder: Set Desktop as the default location for new Finder windows
 # For other paths, use `PfLo` and `file:///full/path/here/`
@@ -73,18 +78,8 @@ defaults write -g InitialKeyRepeat -int 10
 # normal minimum is 2 (30 ms)
 defaults write -g KeyRepeat -int 1
 
-# hotcorners - via https://blog.jiayu.co/2018/12/quickly-configuring-hot-corners-on-macos/
-defaults write com.apple.dock "wvous-bl-corner" -int 4
-defaults write com.apple.dock "wvous-bl-modifier" -int 0
-defaults write com.apple.dock "wvous-tl-corner" -int 2
-defaults write com.apple.dock "wvous-tl-modifier" -int 0
-defaults write com.apple.dock "wvous-tr-corner" -int 3
-defaults write com.apple.dock "wvous-tr-modifier" -int 0
-
-
 # Never sleep when on power
 sudo systemsetup -setcomputersleep Never
-
 
 # Show the ~/Library folder
 chflags nohidden ~/Library
@@ -268,7 +263,7 @@ brew cask install adoptopenjdk8-openj9
 brew install maven
 
 
-# Datagrip (Homebrew cask)
+# Datagrip (Homebrew cask)g
 brew cask install jetbrains-toolbox
 
 
