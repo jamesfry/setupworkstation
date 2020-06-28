@@ -255,6 +255,9 @@ brew cask install spotify
 
 
 # the unarchiver (zips, rars etc)
+brew cask install the-unarchiver
+
+
 # Java
 brew tap AdoptOpenJDK/openjdk
 brew cask install adoptopenjdk11-openj9
