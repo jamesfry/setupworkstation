@@ -278,6 +278,10 @@ brew install maven
 brew cask install jetbrains-toolbox
 
 
+# Insomnia (ReST debug tool)
+brew cask install insomnia
+
+
 # Setup James dark terminal profile
 profile=$(<terminal-profile.xml)
 plutil -replace Window\ Settings.James2 -xml "$profile" ~/Library/Preferences/com.apple.Terminal.plist
