@@ -87,6 +87,9 @@ chflags nohidden ~/Library
 # Show the /Volumes folder
 sudo chflags nohidden /Volumes
 
+# Restart the Dock
+killall Dock
+
 # Setup James dark terminal profile
 profile=$(<$(dirname $0)/terminal/terminal-profile.xml)
 plutil -replace Window\ Settings.James2 -xml "${profile}" ~/Library/Preferences/com.apple.Terminal.plist
