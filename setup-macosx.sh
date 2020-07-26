@@ -163,6 +163,7 @@ brew cask install visual-studio-code
 # vscode extensions
 for extension in \
     amazonwebservices.aws-toolkit-vscode \
+    Arjun.swagger-viewer \
     codezombiech.gitignore \
     CoenraadS.bracket-pair-colorizer \
     dakara.transformer \
