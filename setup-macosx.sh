@@ -1,12 +1,6 @@
 #!/bin/sh
 
-# essentials
-essentials=(preferences homebrew zsh bash ssh)
-
-# tools - can depend on essentials, eg homebrew
-tools=(aws browsers cli-tools collaboration docker git insomnia java jetbrains music nodejs postgres python rectangle unarchiver vscode)
-
-for script in "${essentials[@]}" "${tools[@]}"
+for script in scripts/essentials/*.sh scripts/tools/*.sh
 do
-    sh ./scripts/${script}.sh
+    sh ${script}
 done

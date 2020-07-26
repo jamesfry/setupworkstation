@@ -88,7 +88,7 @@ chflags nohidden ~/Library
 sudo chflags nohidden /Volumes
 
 # Setup James dark terminal profile
-profile=$(<terminal/terminal-profile.xml)
+profile=$(<$(dirname $0)/terminal/terminal-profile.xml)
 plutil -replace Window\ Settings.James2 -xml "${profile}" ~/Library/Preferences/com.apple.Terminal.plist
 defaults write com.apple.Terminal "Default Window Settings" -string "James"
 defaults write com.apple.Terminal "Startup Window Settings" -string "James"
