@@ -181,6 +181,7 @@ for extension in \
     ms-vscode.hexeditor \
     passionkind.prettier-vscode-with-tabs \
     RandomFractalsInc.geo-data-viewer \
+    redhat.vscode-yaml \
     vscjava.vscode-maven
 do
     code --install-extension $extension
