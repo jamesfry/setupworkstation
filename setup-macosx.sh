@@ -178,6 +178,7 @@ for extension in \
     mohsen1.prettify-json \
     ms-azuretools.vscode-docker \
     ms-vscode-remote.remote-containers \
+    ms-vscode.hexeditor \
     passionkind.prettier-vscode-with-tabs \
     RandomFractalsInc.geo-data-viewer \
     vscjava.vscode-maven
