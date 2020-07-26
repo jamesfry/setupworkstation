@@ -162,6 +162,7 @@ brew cask install visual-studio-code
 
 # vscode extensions
 for extension in \
+    amazonwebservices.aws-toolkit-vscode \
     codezombiech.gitignore \
     CoenraadS.bracket-pair-colorizer \
     dakara.transformer \
@@ -169,9 +170,12 @@ for extension in \
     eg2.tslint \
     eg2.vscode-npm-script \
     foxundermoon.shell-format \
+    hashicorp.terraform \
     kumar-harsh.graphql-for-vscode \
     mechatroner.rainbow-csv \
     mohsen1.prettify-json \
+    ms-azuretools.vscode-docker \
+    ms-vscode-remote.remote-containers \
     passionkind.prettier-vscode-with-tabs \
     vscjava.vscode-maven
 do
