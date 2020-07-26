@@ -160,6 +160,7 @@ brew install docker-machine-completion
 brew cask install visual-studio-code
 
 
+
 # vscode extensions
 for extension in \
     amazonwebservices.aws-toolkit-vscode \
@@ -179,6 +180,7 @@ for extension in \
     ms-azuretools.vscode-docker \
     ms-vscode-remote.remote-containers \
     ms-vscode.hexeditor \
+    ms-vscode.vscode-typescript-tslint-plugin \
     passionkind.prettier-vscode-with-tabs \
     RandomFractalsInc.geo-data-viewer \
     redhat.vscode-yaml \
