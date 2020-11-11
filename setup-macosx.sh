@@ -7,3 +7,6 @@ for script in scripts/essentials/*.sh scripts/tools/*.sh
 do
     sh ${script}
 done
+
+
+rsync -av --ignore-existing --progress dotfiles/ ~/
