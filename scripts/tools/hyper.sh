@@ -1,5 +1,5 @@
 #!/bin/sh
 
-brew cask install hyper
+brew install --cask hyper
 
 cp dotfiles/.hyper.js ${HOME}

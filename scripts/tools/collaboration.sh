@@ -1,13 +1,13 @@
 #!/bin/sh
 
 # Slack
-brew cask install slack
+brew install --cask slack
 
 # Microsoft Teams
-brew cask install microsoft-teams
+brew install --cask microsoft-teams
 
 # Zoom
-brew cask install zoomus
+brew install --cask zoom
 
 # Webex
-brew cask install webex-meetings
+brew install --cask webex-meetings

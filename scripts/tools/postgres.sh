@@ -8,4 +8,4 @@ then
 fi
 
 # pgadmin4
-brew cask install pgadmin4
+brew install --cask pgadmin4

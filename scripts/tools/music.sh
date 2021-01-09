@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # VLC
-brew cask install vlc
+brew install --cask vlc
 
 # Spotify
-brew cask install spotify
+brew install --cask spotify

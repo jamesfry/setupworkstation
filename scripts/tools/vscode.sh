@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Visual Studio Code
-brew cask install visual-studio-code
+brew install --cask visual-studio-code
 
 # vscode extensions
 for extension in \

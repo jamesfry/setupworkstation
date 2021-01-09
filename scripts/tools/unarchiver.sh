@@ -1,4 +1,4 @@
 #!/bin/sh
 
 # the unarchiver (zips, rars etc)
-brew cask install the-unarchiver
+brew install --cask the-unarchiver

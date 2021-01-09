@@ -1,4 +1,4 @@
 #!/bin/sh
 
 # Insomnia (ReST debug tool)
-brew cask install insomnia
+brew install --cask insomnia

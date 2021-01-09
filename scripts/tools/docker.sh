@@ -2,7 +2,7 @@
 
 # Docker
 # Using the cask gets the dmg from the docker store and gives the gui tools
-brew cask install docker
+brew install --cask docker
 
 # Docker compose
 brew install docker-compose

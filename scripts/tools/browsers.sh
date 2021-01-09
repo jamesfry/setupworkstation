@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Google Chrome
-brew cask install google-chrome
+brew install --cask google-chrome
 
 # Firefox
-brew cask install firefox
+brew install --cask firefox
