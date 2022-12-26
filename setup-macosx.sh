@@ -10,3 +10,6 @@ done
 
 
 rsync -av --ignore-existing --progress dotfiles/ ~/
+
+brew install mas
+
