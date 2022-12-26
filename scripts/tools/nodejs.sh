@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 # install LTS release of node
 nvm install --lts
