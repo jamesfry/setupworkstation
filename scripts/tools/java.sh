@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # Java
-brew tap AdoptOpenJDK/openjdk
-brew install --cask adoptopenjdk11-openj9
-brew install --cask adoptopenjdk8-openj9
+brew tap homebrew/cask-versions
+brew install --cask temurin17
+brew install --cask temurin8
 
 # Apache Maven
 brew install maven
